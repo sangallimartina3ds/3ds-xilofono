@@ -14,22 +14,22 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-}
+  background-color: #333;
+  
+  display: flex;    }
 
 ul li {
-  float: left;
+  margin: 0;
 }
 
 ul li a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 20px 40px;
+  color: rgb(205, 122, 20);
   text-decoration: none;
+  text-align: center;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #111;
 }
