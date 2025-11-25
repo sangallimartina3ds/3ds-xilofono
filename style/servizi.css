@@ -1,0 +1,50 @@
+.intestazione{
+    background-color: rgb(255, 155, 55);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.logo{
+    width: 90px;
+    height: auto;
+    background-color: rgb(255, 155, 55);
+}
+
+.titoli{
+    background-color: rgb(255, 155, 55);
+}
+.barra{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;                     
+    text-align: center;
+    display: flex;                  
+    justify-content: flex-start;    
+    background-color: #333;  
+    background-color: rgb(255, 155, 55);    
+}
+
+ul li {
+    margin: 0;
+}
+
+ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li a:hover {
+    background-color: #111;
+    }
