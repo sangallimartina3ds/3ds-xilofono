@@ -48,3 +48,48 @@ ul li a {
 ul li a:hover {
     background-color: #111;
     }
+
+.servizi-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;   /* permette di andare a capo */
+  gap: 20px;
+  padding: 20px;
+}
+
+.servizi-box .card {
+  flex: 1 1 calc(33.333% - 20px); /* 3 per riga su desktop */
+  max-width: 300px;
+  cursor: pointer;               /* manina al passaggio */
+}
+
+.servizi-box .card:hover {
+  transform: scale(1.05);
+}
+
+.servizi-box table {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #333;
+  overflow: hidden;
+}
+
+.servizi-box th, .servizi-box td {
+  padding: 12px;
+  text-align: center;
+}
+
+/* 📱 Media query: sotto i 900px → 2 per riga */
+@media (max-width: 900px) {
+  .servizi-box .card {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+/* 📱 Media query: sotto i 600px → 1 per riga */
+@media (max-width: 600px) {
+  .servizi-box .card {
+    flex: 1 1 100%;
+    max-width: none;
+  }
+}
