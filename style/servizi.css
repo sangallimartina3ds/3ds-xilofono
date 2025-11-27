@@ -29,14 +29,14 @@
   text-align: center;
 }
 
-/* 📱 Media query: sotto i 900px → 2 per riga */
+/*Media query: sotto i 900px → 2 per riga */
 @media (max-width: 900px) {
   .servizi-box .card {
     flex: 1 1 calc(50% - 20px);
   }
 }
 
-/* 📱 Media query: sotto i 600px → 1 per riga */
+/*Media query: sotto i 600px → 1 per riga */
 @media (max-width: 600px) {
   .servizi-box .card {
     flex: 1 1 100%;
