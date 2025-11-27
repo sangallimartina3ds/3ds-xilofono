@@ -1,10 +1,13 @@
 .intestazione{ 
-    background-color: rgba(255, 255, 255, 0); 
+    background-color:  rgb(255, 247, 86); 
     display: flex; 
     align-items: left; 
     gap: 15px; 
     padding: 10px; 
-    width: 100%; }
+    width: 97%;
+    height: auto;
+    border: 4px solid rgb(255, 153, 0);
+ }
      
 .logo{ 
     width: 90px; 
@@ -12,23 +15,26 @@
     background-color: rgba(246, 241, 236, 0); } 
     
 .titoli{ 
-    background-color: rgba(255, 155, 55, 0); 
+    background-color: rgba(255, 255, 255, 0); 
 }
 .barra{
     display: flex;
   justify-content: center;
-  align-items: center;
+  background-color: rgb(248, 148, 71);
+  margin: auto;
+  width: auto;
+  align-self: center;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;                     
+    width: 20%;                     
     text-align: center;
     display: flex;                  
     justify-content: flex-start;    
     background-color: #333;  
-    background-color: rgb(255, 155, 55);    
+    background-color: rgb(255, 255, 255);    
 }
 
 ul li {
@@ -48,8 +54,8 @@ ul li a:hover {
 }
 .posizione{
     text-align: center;
-    background-color: rgb(45, 185, 66);
-    border: 4px double green;
+    background-color: rgb(255, 247, 86);
+    border: 4px double rgb(255, 153, 0);
     width: 90%;
     height: auto;
     margin: auto;
@@ -58,7 +64,7 @@ ul li a:hover {
 }
 
 .distanze{
-   background-color: beige;
+   background-color: rgb(255, 153, 0);
 }
 .frazioni{
     margin: auto;
@@ -67,14 +73,16 @@ ul li a:hover {
     width:30%;
 }
 .slogan{
+    font-size:xx-large;
     margin: auto;
     text-align: center;
-    width: 50%;
-    padding: 10px;
+}
+
+.mappa{
+    margin:0 auto;
     align-items: center;
-    font-size: large;
-    border:5 px solid rgb(255, 255, 255);
-    background-color: rgb(255, 111, 0);
+    width: 40%;
+    height: auto;
 }
 .identità{
     margin: auto;
@@ -90,16 +98,37 @@ ul li a:hover {
     height: 15%;
 }
 .storia{
+    align-self: middle;
     overflow-y: auto;
     margin: 0%;
-    width: 40%;
-    height: auto;
+    width: 35%;
+    height: 200px;
     display: flex; 
     align-items: right;
-    background-color: aqua;
 }
 .storia1{
     display: flex; 
     align-items: right;
     gap: 5%;
+    margin: auto;
+    margin-left: 20%;
 }
+.curiosita{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    background-color: rgb(255, 247, 86);
+    width: 80%;
+}
+.vampiro{
+    width: 80%;
+    display: flex; 
+    align-items: right;
+    gap: 5%;
+    border: double 2px rgb(255, 153, 0);
+    align-self: center;
+    padding: 20px;
+    margin: auto;
+}
+
