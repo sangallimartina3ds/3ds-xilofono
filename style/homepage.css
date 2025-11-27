@@ -128,7 +128,8 @@ ul li a:hover {
     gap: 5%;
     border: double 2px rgb(255, 153, 0);
     align-self: center;
-    padding: 20px;
+    padding: 2
+    0px;
     margin: auto;
 }
 
