@@ -93,7 +93,7 @@ ul li a:hover {
     overflow-y: auto;
     margin: 0%;
     width: 40%;
-    height: 20%;
+    height: auto;
     display: flex; 
     align-items: right;
     background-color: aqua;
