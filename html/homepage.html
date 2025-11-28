@@ -17,7 +17,14 @@
         </div><br/>
             <div class="barra">
                 <ul>
-                    <li><a href="homepage.html" class="active">Homepage</a>
+                    <li class="dropdown"><a href="homepage.html" class="active">Homepage</a>
+                        <div class="dropdown-content">
+                        <a href="#posizione">Posizione</a>
+                        <a href="#mappa">Mappa</a>
+                        <a href="#identità">Storia</a>
+                        <a href="#curiosità">Curiosità</a>
+                        <a href="#footer">Contatti team</a>
+                        </div>
                     </li>
                     <li><a href="territorio.html">Territorio</a></li>
                     <li><a href="servizi.html">Servizi</a></li>
@@ -27,9 +34,9 @@
         
         <br/>
         <div class="posizione">
-            <h1 >La posizione di Bottanuco</h1>
+            <h1 id="posizione">La posizione di Bottanuco</h1>
 
-            <table class="distanze" border="4" aling="center" aling="middle" height="20%" cellpadding="3" >
+            <table class="distanze" aling="center" aling="middle" height="20%" cellpadding="3" >
                 <tr>
                     <th scope="col"><b>Regione</b></th>
                     <th scope="col"><b>Provincia</b></th>
@@ -56,13 +63,13 @@
             </p>
         </div><br/>
         <div class="mappa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11158.416827742738!2d9.503901537183394!3d45.638686811170814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786b2c7b10e593d%3A0x6058d248c16c20d1!2s24040%20Bottanuco%20BG!5e0!3m2!1sit!2sit!4v1764256541846!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe id="mappa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11158.416827742738!2d9.503901537183394!3d45.638686811170814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786b2c7b10e593d%3A0x6058d248c16c20d1!2s24040%20Bottanuco%20BG!5e0!3m2!1sit!2sit!4v1764256541846!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div><br/>
         <div class="slogan">
             <p><i>Tra campi e tradizione, la storia di una comunità.</i></p>
         </div><br/>
         <div class="identità">
-            <h1 aling="middle">Identità e storia</h1>
+            <h1 aling="middle" id="identità">Identità e storia</h1>
             <div class="nome">
                 <p>Le prime tracce di insediamenti risalgono al periodo medievale, quando la zona era costituita da piccoli nuclei agricoli e cascine isolate. Bottanuco si sviluppò come un borgo rurale, con un’economia basata principalmente sull’agricoltura e l’allevamento. La presenza dell’Adda non era soltanto un confine naturale, ma anche una via di comunicazione e scambio commerciale, fondamentale per le comunità locali. Bottanuco fece parte dei territori soggetti a Bergamo e, più in generale, al Ducato di Milano. La sua posizione strategica lungo l’Adda lo rese importante sia per i controlli territoriali sia come nodo di collegamento tra diverse comunità. Le cascine, tipiche strutture agricole lombarde, erano al tempo stesso centri di produzione, abitazione e vita sociale, diventando elementi fondamentali dell’identità locale. Nel corso dell’età moderna, sotto le dominazioni veneziana e spagnola, Bottanuco mantenne la sua struttura rurale. Dal secondo dopoguerra in poi, Bottanuco ha conosciuto una crescita demografica e un moderato sviluppo economico. Il paese si è evoluto in un centro residenziale e agricolo, con piccole industrie, artigianato e servizi, pur conservando le caratteristiche rurali che definiscono la sua identità. Oggi il borgo mantiene un forte senso di appartenenza, con iniziative culturali, sociali e religiose che testimoniano la continuità di una storia lunga e ricca, che parte dal Medioevo e arriva fino ai giorni nostri.
                 </p>
@@ -80,7 +87,7 @@
             </div> 
             </div><br/><br/>
         <div class="curiosita">
-            <h1 aling=><b><i>Curiosità e personaggi storici</i></b></h1>
+            <h1 id="curiosità"><b><i>Curiosità e personaggi storici</i></b></h1><br/>
             <h2>Vincenzo Verzeni: il “Vampiro di Bottanuco”</h2>
             <div class="vampiro">
             <p>Tra le figure più oscure della criminologia italiana di fine Ottocento, spicca il nome di Vincenzo Verzeni, nato a Bottanuco nel 1849. Il suo caso, oltre a sconvolgere profondamente la comunità locale dell’epoca, divenne uno dei più studiati dagli esperti di medicina legale e psichiatria criminale del tempo.
@@ -89,6 +96,43 @@
             </p>
             <img src="../immagini/vampiro.jpg" alt="vampiro di bottanuco" width="20%" height="auto"/>
             </div>
+            <h2>Giovanni Maria Finazzi</h2>
+            <div class="finazzi">
+                <p>
+                    Giovanni Maria Finazzi (1802–1870) fu una figura di spicco della cultura lombarda dell’Ottocento. Nato a Bottanuco, dove trascorse infanzia e prima giovinezza, ricevette nel paese le basi della sua formazione religiosa e intellettuale, che segnarono la sua vocazione allo studio e all'insegnamento. Anche dopo aver intrapreso la carriera ecclesiastica e accademica, rimase legato alla sua comunità d’origine, che lo considerò sempre un punto di orgoglio locale.
+                    Sacerdote, docente e studioso, Finazzi è ricordato soprattutto per la sua opera maggiore, Il Codice diplomatico bergomense, fondamentale raccolta di documenti medievali ancora oggi utilizzata dagli storici. Come insegnante di retorica e filologia a Martinengo e poi nel seminario di Pavia, unì rigore scientifico e attenzione alla formazione morale degli studenti, lasciando un’impronta duratura nel mondo culturale lombardo.
+                    Per la qualità degli studi e l’impatto educativo, Finazzi resta una delle personalità più significative della sua epoca.
+                </p>
+                <img src="../immagini/finazzi.jpg" alt="Giovanni Finazzi" width="20%" height="auto"/>
+            </div>
+            <h2>Bartolomeo Colleoni</h2>
+            <div class="colleoni">
+                <p>
+                    Bartolomeo Colleoni (1395–1475), celebre condottiero del Rinascimento e Capitano-Generale della Repubblica di Venezia, fu una figura decisiva nella storia militare e politica lombarda. Oltre al prestigio ottenuto sui campi di battaglia, costruì un vasto sistema di domini nella pianura bergamasca, grazie ai quali esercitò un forte controllo sul territorio. Bottanuco fece parte dei feudi concessi a Colleoni da Venezia come riconoscimento per i suoi servizi. Il paese rientrò così nell’amministrazione colleonesca, che influenzò la gestione delle terre, le rendite agricole e l’organizzazione locale. La presenza del condottiero lasciò tracce nella storia del luogo, inserendo Bottanuco nella rete dei centri strategici che sostenevano il potere e l’economia della famiglia Colleoni.
+                </p>
+                <img src="../immagini/colleoni.jpg" alt="Bartolomeo Colleoni" width="15%" height="auto"/>
+            </div>
+        </div><br/><br/>
+        <div class="footer">
+            <br/>
+            <table class="mail" width="80%" cellpadding="5%" id="footer">
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Mail istituzionale</th>
+                </tr>
+                <tr>
+                    <td>Martina Sangalli</td>
+                    <td><a href="mailto:martina.sangalli@studenti.liceomascheroni.it">martina.sangalli@studenti.liceomascheroni.it</a></td>
+                </tr>
+                <tr>
+                    <td>Lorenzo Caffu</td>
+                    <td><a href="mailto:lorenzo.caffu@studenti.liceomascheroni.it">lorenzo.caffu@studenti.liceomascheroni.it</a></td>
+                </tr>
+                <tr>
+                    <td>Mattia Micheletti</td>
+                    <td><a href="mailto:mattia.micheletti@studenti.liceomascheroni.it">mattia.micheletti@studenti.liceomascheroni.it</a></td>
+                </tr>
+         </table>
         </div>
     </body>
 </html>

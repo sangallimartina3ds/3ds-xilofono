@@ -1,6 +1,13 @@
 *{
-    background-color: rgb(255, 205, 106);}
-
+    background-color: rgb(255, 205, 106);
+    background-attachment: fixed;
+}
+/*responsive layout*/
+@media screen and (max-width: 700px) {
+  .container, .navbar {   
+    flex-direction: column;
+  }
+}
 .intestazione{ 
     background-color:  rgb(255, 247, 86); 
     display: flex; 
