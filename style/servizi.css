@@ -1,16 +1,91 @@
 
+.servizi-box{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:20px;
+
+}
+
+.servizi-box .card{
+  flex: 1 1 calc(33.333% - 20px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:18px 14px;
+  border-radius:12px;
+  border:1px solid rgba(0,0,0,0.08);
+}
+
+.servizi-box .card:hover{
+  transform:translateY(-4px) scale(1.02);
+  box-shadow:0 8px 18px rgba(0,0,0,0.12);
+  outline:none;
+}
+
+.card-title{  
+  text-align:center; 
+}
+
+.generale h2{ 
+  text-align:center;
+   margin-top:0; 
+  }
+.generale p{ 
+  text-align:center;
+   margin: .5rem 0 1.25rem; 
+  }
+
+.linea{ 
+  border:0; 
+  height:1px; 
+  background: rgba(0,0,0,.12); 
+  margin:1rem 0; 
+}
+
+.generale{ 
+  max-width: 1000px;
+  margin:0 auto; 
+  padding:20px; 
+  background-color: transparent; 
+  box-shadow:0 0 10px rgba(0,0,0,.06);
+  border-radius:10px; 
+  }
+
+.servizio{ 
+  margin: 18px 0; 
+  padding: 14px; 
+  border-radius: 8px; 
+  background: rgba(255,255,255,0.65);
+  box-shadow:0 1px 6px rgba(0,0,0,0.04); 
+}
+
+.schedule{ 
+  width:100%; 
+  border-collapse:collapse; 
+  margin: 8px 0 12px; 
+}
+.schedule th, .schedule td{ 
+  text-align:left;
+  padding:8px 10px;
+  border:1px solid rgba(0,0,0,0.06);
+} 
+.schedule th{
+  background: rgba(0,0,0,0.04); 
+  font-weight:600; 
+}
+
 .servizi-box {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;   /* permette di andare a capo */
+  flex-wrap: wrap;  
   gap: 20px;
   padding: 20px;
 }
 
 .servizi-box .card {
-  flex: 1 1 calc(33.333% - 20px); /* 3 per riga su desktop */
   max-width: 300px;
-  cursor: pointer;               /* manina al passaggio */
+  cursor: pointer;              
 }
 
 .servizi-box .card:hover {
@@ -44,21 +119,44 @@
   }
 }
 h1{
-    text-align: center;
+  text-align: center;
 }
 p{
-    text-align: center;
+  text-align: center;
 }
 
 .linea {
   color: black;
 }
 
-.generale {
-  max-width: 1000px;   
+.generale {  
   margin: 0 auto;      
   padding: 20px;       
   background-color: #ffffff00; 
   box-shadow: 0 0 10px rgba(0,0,0,0.1); 
   border-radius: 10px; 
 }
+
+
+.servizio { 
+  margin: 18px 0; 
+  padding: 14px; 
+  border-radius: 8px; 
+  background: rgba(255,255,255,0.65); 
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04); 
+}
+.schedule {
+   width: 100%; 
+   border-collapse: collapse;
+   margin: 8px 0 12px;
+   }
+.schedule th, .schedule td { 
+  text-align: left;
+  padding: 8px 10px;
+  border: 1px solid rgba(0,0,0,0.06);
+} 
+.schedule  th { 
+  background: rgba(0,0,0,0.04); 
+   
+} 
+

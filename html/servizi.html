@@ -25,27 +25,89 @@
         </div>
         <br/>
         <div class="generale">
-            <h1>SERVIZI</h1>
+            <h2>SERVIZI</h2>
             <p>Tutti i servizi comunali per i cittadini, disponibili online o a sportello, per richiedere documenti e permessi.</p>
             <div class="servizi-box">
-                <div class="card" onclick="location.href='servizi file/anagrafe.html'">
-                    <table class="box">
-                        <tr><th>Anagrafe</th></tr>
-                    </table>
-                </div>
-                <div class="card" onclick="location.href='servizi file/ufficiotecnico.html'">
-                    <table class="box">
-                        <tr><th>Ufficio Tecnico</th></tr>
-                    </table>
-                </div>
-                <div class="card" onclick="location.href='servizi file/polizia.html'">
-                    <table class="box">
-                        <tr><th>Polizia Municipale</th></tr>
-                    </table>
-                </div>
+                <a class="card" href="#anagrafe">
+                    <span class="card-title">Anagrafe</span>
+                </a>
+                <a class="card" href="#ufficio-tecnico">
+                    <span class="card-title">Ufficio Tecnico</span>
+                </a>
+                <a class="card" href="#polizia">
+                    <span class="card-title">Polizia Municipale</span>
+                </a>
             </div>
             <hr class="linea">
             <hr class="linea">
+            <div id="anagrafe" class="servizio">
+                <h2>Ufficio Anagrafe, Stato Civile ed Elettorale</h2>
+                <p><b>Indirizzo:</b> Municipio di Bottanuco, Piazza San Vittore 1, 24040 Bottanuco (BG)</p>
+                <table class="schedule">
+                        <tr><th>Giorno</th><th>Orario</th></tr>
+                        <tr><td>Lunedì</td><td>09:00 – 13:00</td></tr>
+                        <tr><td>Martedì</td><td>Chiuso</td></tr>
+                        <tr><td>Mercoledì</td><td>09:00 – 13:00</td></tr>
+                        <tr><td>Giovedì</td><td>15:00 – 18:30</td></tr>
+                        <tr><td>Venerdì</td><td>09:00 – 13:00</td></tr>
+                        <tr><td>Sabato</td><td>09:00 – 12:00 (solo 2° e 4° sabato del mese)</td></tr>
+                </table>
+                <p><b>Contatti:</b> Tel. 035 4992921 – Email: anagrafe</p>
+                <h3>Servizi principali</h3>
+                <ul>
+                    <li>Carte d’identità</li>
+                    <li>Certificati di nascita, matrimonio e morte</li>
+                    <li>Cambio di residenza</li>
+                    <li>Liste elettorali</li>
+                </ul>
+                <h3>Procedure</h3>
+                <p><b>Carta d’identità:</b> portare foto tessera e documento scaduto.</p>
+                <p><b>Cambio di residenza:</b> compilare modulo e consegnarlo all’ufficio.</p>
+            </div>
+            <hr class="linea">
+
+            <div id="ufficio-tecnico" class="servizio">
+                <h2>Ufficio Tecnico</h2>
+                <p><strong>Indirizzo:</strong> Municipio di Bottanuco, Piazza San Vittore 1, 24040 Bottanuco (BG)</p>
+                <table class="schedule">
+                    <tr><th>Giorno</th><th>Orario</th></tr>
+                    <tr><td>Lunedì</td><td>09:00 – 13:00</td></tr>
+                    <tr><td>Giovedì</td><td>15:00 – 18:30</td></tr>
+                </table>
+                <p><b>Contatti:</b> Tel. 035 4992922 – Email: ufficiotecnico</p>
+                <h3>Servizi principali</h3>
+                <ul>
+                    <li>Permessi di costruire</li>
+                    <li>Certificati urbanistici</li>
+                    <li>Lavori pubblici</li>
+                    <li>Pratiche ambientali</li>
+                </ul>
+                <h3>Procedure</h3>
+                <p><b>Permesso di costruire:</b> compilare modulo edilizio e allegare progetto firmato.</p>
+                <p><b>Pagamento TARI:</b> tramite bollettino o portale online.</p>
+            </div>
+            <hr class="linea">
+
+            <div id="polizia" class="servizio">
+                <h2>Polizia Municipale</h2>
+                <p><b>Indirizzo:</b> Municipio di Bottanuco, Piazza San Vittore 1, 24040 Bottanuco (BG)</p>
+                <table class="schedule">
+                    <tr><th>Giorno</th><th>Orario</th></tr>
+                    <tr><td>Lunedì – Venerdì</td><td>09:00 – 13:00</td></tr>
+                    <tr><td>Giovedì</td><td>15:00 – 18:30</td></tr>
+                </table>
+                <p><b>Contatti:</b> Tel. 035 4992923 – Email: poliziamunicipale</p>
+                <h3>Servizi principali</h3>
+                <ul>
+                    <li>Sicurezza urbana</li>
+                    <li>Permessi ZTL e contrassegni disabili</li>
+                    <li>Sanzioni amministrative</li>
+                    <li>Educazione stradale</li>
+                </ul>
+                <h3>Procedure</h3>
+                <p><b>Pagamento multe:</b> tramite bollettino postale o online.</p>
+                <p><b>Permesso ZTL:</b> compilare modulo e consegnarlo in ufficio.</p>
+            </div>
         </div>
     </body>
 </html>
