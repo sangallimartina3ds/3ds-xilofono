@@ -154,6 +154,16 @@ li.dropdown {
     margin: auto;
     margin-left: 20%;
 }
+.alpini{
+    margin: auto;
+    align-self: center;
+    text-align: center;
+    width: 70%;
+    background-color:rgb(204, 255, 86) ;
+    box-shadow: 5px 10px rgba(56, 134, 22, 0.737);
+    padding: 10px;
+
+}
 .curiosita{
     margin: auto;
     align-items: center;
