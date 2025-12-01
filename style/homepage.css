@@ -14,9 +14,6 @@
     height: auto; 
     background-color: rgba(246, 241, 236, 0); } 
     
-.titoli{ 
-    background-color: transparent; 
-}
 .barra{
     display: flex;
   justify-content: center;
@@ -24,6 +21,8 @@
   margin: auto;
   width: auto;
   align-self: center;
+  position: sticky;
+  top:1px;
 }
 ul {
     list-style-type: none;
@@ -100,12 +99,21 @@ li.dropdown {
 }
 
 .distanze{
-   background-color: rgb(255, 153, 0);
+    border-color: rgba(211, 118, 63, 0.737);
+    border-style: solid;
+
+    background-color: rgb(255, 205, 106);
     box-shadow: 5px 10px rgba(211, 118, 63, 0.737);
 }
-.distanze table{
-    border: 3px rgb(255, 135, 44) solid;
+
+
+tr, th, td {
+    border-color: rgba(211, 118, 63, 0.737);
+    border-style: solid;
+
 }
+
+
 .frazioni{
     margin: auto;
     background-color:  rgb(255, 205, 106);
@@ -171,10 +179,10 @@ li.dropdown {
     align-items: center;
     text-align: center;
     align-self: center;
-    background-color: rgb(255, 247, 86);
     width: 80%;
 }
 .vampiro{
+    background-color: rgb(255, 247, 86);
     width: 80%;
     display: flex; 
     align-items: right;
@@ -185,6 +193,7 @@ li.dropdown {
     margin: auto;
 }
 .finazzi{
+    background-color: rgb(255, 247, 86);
     width: 80%;
     display: flex; 
     align-items: right;
@@ -195,6 +204,7 @@ li.dropdown {
     margin: auto;
 
 }.colleoni{
+    background-color: rgb(255, 247, 86);
     width: 80%;
     height: auto;
     display: flex; 
@@ -207,7 +217,7 @@ li.dropdown {
 }
 
 .footer{
-    background-color: rgb(255, 153, 0);
+    background-color:  rgb(255, 247, 86);
     font-size: large;
     width: 100%;
     height: 30%;
@@ -216,7 +226,6 @@ li.dropdown {
 }
 .mail{
     margin: 0 auto;
-    background-color: rgb(255, 153, 0);
     text-align: center;
 }
 .titologallery{
