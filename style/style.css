@@ -31,8 +31,10 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 153, 0);
+  background-color: rgb(238, 200, 83);
   margin: auto;
+  position: sticky;
+  border-radius: 8px;
 }
 .barra ul {
     list-style-type: none;
@@ -43,7 +45,8 @@ body{
     display: flex;                  
     justify-content: flex-start;    
     background-color: #333;  
-    background-color: rgb(255, 153, 0);    
+    background-color: rgb(255, 153, 0);   
+    border-radius: 8px; 
 }
 
 .barra ul li {
@@ -60,6 +63,7 @@ body{
 
 .barra ul li a:hover {
     background-color: #111;
+    border-radius: 8px;
     }
 
 .barra ul li a.active {
