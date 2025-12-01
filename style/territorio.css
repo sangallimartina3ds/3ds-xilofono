@@ -1,13 +1,14 @@
-*{
-    background-color:rgb(255, 213, 0);
-}
 .text{
     font:black
-     
 }
-.titolo{
-    background-color:rgb(93, 0, 255) ;
-    
-
-
+.intro{
+    background-color:orange;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 3;
+    border: 2;
+}
+.img{
+    text-align: center;
 }
