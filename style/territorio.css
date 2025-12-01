@@ -3,11 +3,11 @@
 }
 .intro{
     background-color:orange;
-    width: 70%;
+    width: 40%;
     text-align: center;
     margin: auto;
     padding: 3;
-    border: 2;
+    border:  4px solid rgb(255, 153, 0);
 }
 .img{
     text-align: center;
