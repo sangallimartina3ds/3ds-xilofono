@@ -1,12 +1,4 @@
-
-li a, .dropbtn {
-  display: inline-block;
-  color: rgb(243, 143, 28);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
+/* dropdown menu */
 li.dropdown {
   display: inline-block;
   border-radius: 8px;
@@ -37,7 +29,9 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* fine dropdown menu */
 
+/* mappa e servizi box */
 .mappa{
   display:flex;
   justify-content:center;
@@ -56,13 +50,17 @@ li.dropdown {
   flex: 1 1 calc(33.333% - 20px);
   max-width:300px;
   display:flex;
+  flex-direction: column;  
+  align-items: center;     
+  justify-content: flex-start; 
   align-items:center;
-  justify-content:center;
+  justify-content:first baseline;
   padding:18px 14px;
   border-radius:12px;
   border:1px solid rgba(0,0,0,0.08);
   text-decoration:none;
   box-shadow:0 4px 12px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
 }
 
 .servizi-box .card:hover{
@@ -70,17 +68,30 @@ li.dropdown {
   box-shadow:0 8px 18px rgba(0, 0, 0, 0.137);
 }
 
-.servizi-box .card {
-  max-width: 300px;
-  cursor: pointer;  
-  text-decoration:none;            
-}
-
-.card-title{  
+.card .card-title{ 
+  position: relative;
+  display: block;
+  width: 100%;            
+  background-color: #f0f0f0; 
   text-align:center; 
-  color:royalblue;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;         
+  border-radius: 8px 8px 0 0; 
 }
 
+.card .testo-box{
+  margin-top:10px;
+  text-align: center;
+  color: black;
+}
+
+.card a{
+  align-items: center;
+}
+/* fine mappa e servizi box*/
+
+/* stile generale servizi */
 .generale{ 
   max-width: 1000px;
   margin:0 auto; 
@@ -105,6 +116,7 @@ li.dropdown {
     max-width: none;
   }
 }
+/* fine media query */
 
 h1{
   text-align: center;
@@ -118,7 +130,7 @@ p{
   height: 1px; 
   border: 0; 
   background: rgba(0,0,0,0.12); 
-  margin: 20px;
+  margin: 10px;
 }
 
 .generale {  
@@ -127,6 +139,7 @@ p{
   background-color: #ffffff00; 
   box-shadow: 0 0 10px rgba(0,0,0,0.1); 
   border-radius: 10px; 
+  z-index: 1;
 }
 
 .servizio { 
@@ -150,7 +163,9 @@ p{
 .servizio p .servizio h3{
   border-radius: 8px
 }
+/* fine stile generale servizi */
 
+/* freccia torna su */
 .freccia{
   position: fixed;
   bottom: 20px;
@@ -160,6 +175,7 @@ p{
   border-radius: 100px;
   cursor: pointer;
 }
+/* fine freccia torna su */
 
 
 
@@ -177,24 +193,7 @@ p{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* stile footer */
 .footer{
     background-color:  #FFD449;
     font-size: large;
@@ -207,3 +206,4 @@ p{
     margin: 0 auto;
     text-align: center;
 }
+/* fine stile footer */
