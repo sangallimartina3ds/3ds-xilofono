@@ -15,8 +15,8 @@ body{
     gap: 15px; 
     padding: 10px; 
     width: 97%;
-    height: auto;
     border: 4px solid rgb(255, 153, 0);
+    height: auto;
  }
      
 .logo{ 
@@ -28,7 +28,7 @@ body{
     background-color: transparent   ; 
 }
 .barra{
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(255, 153, 0);
