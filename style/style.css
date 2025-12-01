@@ -34,6 +34,7 @@ body{
   background-color: rgb(238, 200, 83);
   margin: auto;
   position: sticky;
+  top:1px;
   border-radius: 8px;
 }
 .barra ul {
