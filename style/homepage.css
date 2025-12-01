@@ -7,7 +7,7 @@
     width: 97%;
     height: auto;
     border: 4px solid rgb(255, 153, 0);
- }
+}
      
 .logo{ 
     width: 90px; 
@@ -15,7 +15,7 @@
     background-color: rgba(246, 241, 236, 0); } 
     
 .titoli{ 
-    background-color: rgba(255, 255, 255, 0); 
+    background-color: transparent; 
 }
 .barra{
     display: flex;
@@ -32,9 +32,8 @@ ul {
     width: 20%;                     
     text-align: center;
     display: flex;                  
-    justify-content: flex-start;    
-    background-color: #333;  
-    background-color: rgb(255, 255, 255); 
+    justify-content: flex-start;      
+    background-color: rgb(255, 135, 44); 
     overflow: hidden;   
 }
 
@@ -55,7 +54,7 @@ ul li a:hover {
 }
 li a, .dropbtn {
   display: inline-block;
-  color: white;
+  color: rgb(243, 143, 28);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -69,7 +68,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: rgb(255, 135, 44);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -103,6 +102,9 @@ li.dropdown {
 .distanze{
    background-color: rgb(255, 153, 0);
     box-shadow: 5px 10px rgba(211, 118, 63, 0.737);
+}
+.distanze table{
+    border: 3px rgb(255, 135, 44) solid;
 }
 .frazioni{
     margin: auto;
@@ -227,12 +229,12 @@ li.dropdown {
   margin-left: 5%;
 }
 
-.dropdown {
+.img-dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropdown img {
+.img-dropdown img {
   width: 140px;
   height: 100px;
   object-fit: cover;
@@ -240,7 +242,7 @@ li.dropdown {
   border: 1px solid #ccc;
 }
 
-.dropdown-content {
+.img-dropdown-content {
   display: none;
   position: absolute;
   top: 65px;
@@ -251,13 +253,13 @@ li.dropdown {
   border: 1px solid #ccc;
 }
 
-.dropdown-content img {
+.img-dropdown-content img {
   width: 300px;
   height: 200px;
   object-fit: cover;
 }
 
-.dropdown:hover .dropdown-content {
+.img-dropdown:hover .img-dropdown-content {
   display: block;
 }
 .desc{
