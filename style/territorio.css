@@ -12,3 +12,12 @@
 .img{
     text-align: center;
 }
+.barra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 200, 83);
+  margin: auto;
+  position: sticky;
+  border-radius: 8px;
+}
