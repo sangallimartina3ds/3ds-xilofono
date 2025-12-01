@@ -1,4 +1,4 @@
-*{
+body{
     background-color: rgb(255, 205, 106);
     background-attachment: fixed;
 }
@@ -25,7 +25,7 @@
     background-color: rgba(246, 241, 236, 0); } 
     
 .titoli{ 
-    background-color: rgba(255, 255, 255, 0); 
+    background-color: transparent   ; 
 }
 .barra{
   display: flex;
