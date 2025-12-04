@@ -59,7 +59,15 @@ li.dropdown {
   text-decoration:none;
   box-shadow:0 4px 12px rgba(0, 0, 0, 0.06);
   cursor: pointer;
-  background-image: src("../immagini/biblioteca.png");
+}
+
+.servizi-box .culturali{ 
+  border-radius:12px;
+  cursor: pointer;
+  background-image: url("../immagini/biblioteca.png");
+  background-size: cover;       /* Adatta l'immagine al box */
+  background-position: center;  /* Centra l'immagine */
+  background-repeat: no-repeat; /* Evita ripetizioni */
 }
 
 .servizi-box .card:hover{
