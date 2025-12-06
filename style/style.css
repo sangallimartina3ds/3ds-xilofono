@@ -9,34 +9,32 @@ body{
   }
 }
 .intestazione{ 
-    background-color:  rgb(255, 247, 86); 
+    background-color:  #FFD449; 
     display: flex; 
     align-items: left; 
     gap: 15px; 
     padding: 10px; 
     width: 97%;
-    border: 4px solid rgb(255, 153, 0);
     height: auto;
- }
+    border: 4px solid rgb(255, 153, 0);
+}
      
 .logo{ 
     width: 90px; 
     height: auto; 
     background-color: rgba(246, 241, 236, 0); } 
     
-.titoli{ 
-    background-color: transparent   ; 
-}
 .barra{
-  display: flex;
+    display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: rgb(238, 200, 83);
   margin: auto;
+  width:auto;
+  align-self: center;
   position: sticky;
   top:1px;
   border-radius: 8px;
 }
+
 .barra ul {
     list-style-type: none;
     margin: 0;
