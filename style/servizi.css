@@ -48,6 +48,7 @@ li.dropdown {
 
 .servizi-box .card{
   flex: 1 1 calc(33.333% - 20px);
+  height: 200px;
   max-width:300px;
   display:flex;
   flex-direction: column;  
@@ -59,12 +60,9 @@ li.dropdown {
   text-decoration:none;
   box-shadow:0 4px 12px rgba(0, 0, 0, 0.06);
   cursor: pointer;
-}
-
-.servizi-box .culturali{ 
   border-radius:12px;
   cursor: pointer;
-  background-image: url("../immagini/biblioteca.png");
+  background-image: url("../immagini/");
   background-size: cover;       /* Adatta l'immagine al box */
   background-position: center;  /* Centra l'immagine */
   background-repeat: no-repeat; /* Evita ripetizioni */
@@ -186,6 +184,10 @@ p{
   height: 50px;
   border-radius: 100px;
   cursor: pointer;
+}
+
+.freccia:hover {
+  transform: scale(1.2);
 }
 /* fine freccia torna su */
 
