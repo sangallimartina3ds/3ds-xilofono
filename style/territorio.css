@@ -21,12 +21,11 @@
   position: sticky;
   border-radius: 8px;
 }
-.pulsanti {
-  display: none;
-  position: absolute;
-  background-color: rgb(255, 135, 44);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border-radius: 8px;
+.percorsi{
+    background-color:rgb(251, 255, 0);
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 3;
+    border:  4px solid rgb(255, 230, 0);
 }
