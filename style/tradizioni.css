@@ -253,3 +253,18 @@ audio{
   gap: 70px;
   background-color:  #FFD449;
 }
+
+/* stile footer */
+.footer{
+    background-color:  #FFD449;
+    font-size: large;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    margin: auto;
+}
+.mail{
+    margin: 0 auto;
+    text-align: center;
+}
+/* fine stile footer */
