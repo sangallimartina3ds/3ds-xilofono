@@ -254,6 +254,47 @@ audio{
   background-color:  #FFD449;
 }
 
+.piattitipici{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  align-self: center;
+}
+.piatti{
+  text-align: center;
+}
+
+.fotocibi {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonne */
+  gap: 15px; /* spazio tra le foto */
+  width: 30%;
+  margin: 0 auto;
+}
+
+.fotocibi img {
+  width: 100%;     /* l’immagine riempie la cella */
+  height: auto;    /* mantiene le proporzioni */
+  border-radius: 8px;
+}
+
+.associazioni>table{
+  align-self: center;
+  margin: 0 auto;
+}
+
+.associazioni table,
+.associazioni th,
+.associazioni tr,
+.associazioni td {
+  border: 6px double orange;
+}
+
+.associazioni th,
+.associazioni td{
+  background-color: #FFD449;
+}
+
 /* stile footer */
 .footer{
     background-color:  #FFD449;
