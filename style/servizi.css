@@ -48,7 +48,7 @@ li.dropdown {
 
 .servizi-box .card{
   flex: 1 1 calc(33.333% - 20px);
-  height: 200px;
+  min-height: 200px;
   max-width:300px;
   display:flex;
   flex-direction: column;  
@@ -90,6 +90,12 @@ li.dropdown {
   margin-top:10px;
   text-align: center;
   color: black;
+}
+
+.card .testo-box h5{
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .card a{
@@ -241,7 +247,29 @@ p{
   transform: scale(1.2);
 }
 /* fine freccia torna su */
+/* stile form */
+.form{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.form a{
+  color: blue;
+  text-decoration: underline;
+}
+
+.form a:hover{
+  color: darkblue;
+  text-decoration: none;
+}
+
+.form p{
+  font-size: 18px;
+  color: black;
+} 
+
+/* fine stile form */
 
 
 
@@ -266,9 +294,41 @@ p{
     height: 30%;
     align-items: center;
     margin: auto;
+    padding: 10px;
+    border: 5px solid rgb(255, 136, 0);
+    border-radius: 8px;
 }
+
 .mail{
     margin: 0 auto;
     text-align: center;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    align-self: center;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
+
+.mail a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.mail tr{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    align-self: center;
+    width: 80%;
+}
+
+.mail td{
+    padding: 10px;
+    width: 50%;
+    height: auto; 
+}
+
+
 /* fine stile footer */

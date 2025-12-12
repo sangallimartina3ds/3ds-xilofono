@@ -9,13 +9,14 @@ body{
     flex-direction: column;
   }
 }
+
 .intestazione{ 
     background-color:  #FFD449; 
     display: flex; 
     align-items: left; 
     gap: 15px; 
     padding: 10px; 
-    width: 97%;
+    width: 99%;
     height: auto;
     border: 4px solid rgb(255, 153, 0);
 }
@@ -23,7 +24,8 @@ body{
 .logo{ 
     width: 90px; 
     height: auto; 
-    background-color: rgba(246, 241, 236, 0); } 
+    background-color: rgba(246, 241, 236, 0); 
+} 
     
 .barra{
     display: flex;
