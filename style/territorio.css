@@ -38,24 +38,26 @@ li.dropdown {
   display: block;
 }
 .intro{
-    background-color:orange;
+    background-color:#eaaa07c5 ;
+    box-shadow: 5px 10px #a07105c5;
     width: 52%;
     text-align: center;
     margin: auto;
     padding: 3;
-    border:  4px solid rgb(255, 153, 0);
+    border:  4px solid #a07105c5;
 }
 .img{
     text-align: center;
 }
 
 .percorsi{
-    background-color:rgb(251, 255, 0);
+   background-color:#a6de81c5 ;
+    box-shadow: 5px 10px #659346c5;
     width: 70%;
     text-align: center;
     margin: auto;
     padding: 3;
-    border:  4px solid rgb(255, 230, 0);
+    border:  4px solid #a6de81c5;
 }
 
 
@@ -79,4 +81,17 @@ li.dropdown {
 .desc {
   padding: 15px;
   text-align: center;
+}
+.mail{
+    margin: 0 auto;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(255, 158, 74);
+    font-size: xx-large;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    margin: auto;
+    border: 2;
 }
