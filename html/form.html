@@ -5,12 +5,34 @@
         <title>Modulo di contatto - Assistenza</title>
     </head>
     <body>
-        <form>
-            <fieldset>
-            <div class="form">
-                <legend>Modulo di contatto - Assistenza</legend>
-                    <p>Compila il modulo sottostante per inviare una richiesta di assistenza o suggerimenti. Ti risponderemo al più presto.</p>
-                    <table class="mail">
+        <div class="intestazione">
+            <div class="logo">
+                <img src="../immagini/logo bottanuco.jpg" class="logo" alt="Logo Comune di Bottanuco">
+                <br/>
+            </div>
+            <div class="titoli">
+                <h1 id="cima">Comune di Bottanuco</h1>
+                <h3>Provincia di Bergamo</h3>
+            </div>
+        </div><br/>
+         <div class="barra">
+                <ul >
+                    <li><a href="homepage.html">Homepage</a></li>   
+                    <li><a href="territorio.html">Territorio</a></li>
+                    <li class="dropdown"><a href="servizi.html" class="active">Servizi</a>
+                       
+                    </li>
+                    <li><a href="tradizioni.html">Tradizione</a></li>
+                </ul>
+            </div>
+        <br/>
+        <form method="get">
+           <div class="form">   
+           <p class="link"><a href="homepage.html">HOME</a> / <a href="servizi.html">SERVIZI</a> / ASSISTENZA-MODULO</p>
+                <fieldset>
+                <legend><h2>Modulo di contatto - Assistenza</h2></legend>
+                   <p>Compila il modulo sottostante per inviare una richiesta di assistenza o suggerimenti. Ti risponderemo al più presto.</p>
+                    <table class="tabella">
                         <tr>
                             <td>Nome:</td>
                             <td><input type="text" name="nome" required/></td>
@@ -29,18 +51,20 @@
                         </tr>
                         <tr>
                             <td>Messaggio:</td>
-                            <td><textarea name="messaggio" rows="5" cols="30" required></textarea></td>
+                            <td><textarea name="messaggio"></textarea></td>
                         </tr>
                         <tr>
-                            <td colspan="2" style="text-align: center;">
-                                <input type="submit" value="Invia"/>
+                            <td >
+                                <input type="submit" name="invia" value="Invia"/>
                             </td>
                         </tr>
                     </table>
-                </div>
-            </fieldset>
+                
+                 </fieldset>
+            </div>        
         </form> 
+        <a href="#cima">
+        <img class="freccia" src="../immagini/freccia2.png" />
+        </a>
     </body>
-
-
 </html>
