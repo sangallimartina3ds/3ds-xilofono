@@ -32,12 +32,12 @@
 .gallery-item {
   margin: 5px;
   border: 1px solid #ccc;
-  width: 180px;
+  height: 180px ;
 }
 
 .gallery-item img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 180px;
 }
 
 .desc {
