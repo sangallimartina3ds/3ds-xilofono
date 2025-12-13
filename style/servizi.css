@@ -31,6 +31,23 @@ li.dropdown {
 }
 /* fine dropdown menu */
 
+/* titolo servizi */
+.titolo{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* fine titolo servizi */
+
+/* testo servizi */
+.testo{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+/* fine testo servizi */
+
 /* mappa e servizi box */
 .mappa{
   display:flex;
@@ -230,6 +247,26 @@ p{
 .servizio p .servizio h3{
   border-radius: 8px
 }
+
+.procedure {
+  max-width: 800px;
+  background-color: #fff8e1;
+  border-left: 5px solid #ff9100;
+  border-radius: 8px;
+  box-shadow:  0 1px 6px rgba(0,0,0,0.04); 
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.procedure li {
+  margin-bottom: 8px;
+  padding-left: 5px;
+}
+
+.procedure li::marker {
+  font-weight: bold;
+  color: #ff9100;
+}
 /* fine stile generale servizi */
 
 /* freccia torna su */
@@ -247,6 +284,7 @@ p{
   transform: scale(1.2);
 }
 /* fine freccia torna su */
+
 /* stile form */
 .form{
   text-align: center;
