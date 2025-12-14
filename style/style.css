@@ -48,7 +48,6 @@ body{
   align-self: center;
   position: sticky;
   top:1px;
-  border-radius: 8px;
     z-index: 100;
     width: 80%;
     
@@ -64,7 +63,6 @@ body{
     justify-content: flex-start;    
     background-color: #333;  
     background-color: rgb(255, 158, 74);   
-    border-radius: 8px; 
 }
 
 .barra ul li {
@@ -83,13 +81,11 @@ body{
 
 .barra ul li a:hover {
     background-color: #111;
-    border-radius: 8px;
     }
 
 .barra ul li a.active {
     background-color: white; 
     color: #333; 
     font-weight: bold; 
-    border-radius: 8px; 
 }
 
