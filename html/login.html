@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <link rel="stylesheet"  href="../style/login.css"/>
+        <link rel="stylesheet"  href="../style/style.css"/>
+        <title>Modulo di contatto - Assistenza</title>
+    </head>
+    <body>
+        <div class="intestazione">
+            <div class="logo">
+                <img src="../immagini/logo bottanuco.jpg" class="logo" alt="Logo Comune di Bottanuco">
+                <br/>
+            </div>
+            <div class="titoli">
+                <h1 id="cima">Comune di Bottanuco</h1>
+                <h3>Provincia di Bergamo</h3>
+            </div>
+        </div><br/>
+         <div class="barra">
+                <ul >
+                    <li><a href="homepage.html">Homepage</a></li>   
+                    <li><a href="territorio.html">Territorio</a></li>
+                    <li class="dropdown"><a href="servizi.html" class="active">Servizi</a>
+                       
+                    </li>
+                    <li><a href="tradizioni.html">Tradizione</a></li>
+                </ul>
+            </div>
+        <br/>
+        <form method="get">
+           <div class="form">   
+                <fieldset>
+                <legend><h2>Modulo login</h2></legend>
+                   <p>Compila il modulo per registrarti come cittadino del comune</p>
+                    <table class="tabella">
+                        <tr>
+                            <td>Nome:</td>
+                            <td><input type="text" name="nome" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Cognome:</td>
+                            <td><input type="text" name="cognome" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" name="email" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Username:</td>
+                            <td><input type="text" name="username" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Via di residenza:</td>
+                            <td><input type="text" name="residenza" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Domande o richieste:</td>
+                            <td><textarea name="messaggio"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td >
+                                <input type="submit" name="invia" value="Invia"/>
+                            </td>
+                        </tr>
+                    </table>
+                
+                 </fieldset>
+            </div>        
+        </form> 
+        <a href="#cima">
+        <img class="freccia" src="../immagini/freccia2.png" />
+        </a>
+    </body>
+</html>

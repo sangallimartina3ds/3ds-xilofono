@@ -15,7 +15,19 @@
     width: 90px; 
     height: auto; 
     background-color: rgba(246, 241, 236, 0); } 
+
+.login{
+    text-align: right;
+    width: 10%;
+    align-self: right;
+    margin-left: 600px;
+    margin-top: 20px;
     
+}
+
+.login a {
+    color:rgb(255, 158, 74);
+}
 
 ul {
     list-style-type: none;
@@ -124,7 +136,9 @@ tr, th, td {
     font-size:xx-large;
     margin: auto;
     text-align: center;
-    border: 2px #ffffff double;
+    border: 8px rgb(255, 158, 74) ridge;
+    border-radius: 10px;
+    font-family: 'Bungee Spice', cursive;
     width: 60%;
 }
 
@@ -226,6 +240,8 @@ hr{
     height: 30%;
     align-items: center;
     margin: auto;
+    font-family: 'Genos', sans-serif;
+   
 }
 .footer table, 
 .footer tr,
