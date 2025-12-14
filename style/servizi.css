@@ -83,7 +83,7 @@ li.dropdown {
   background-size: cover;       /* Adatta l'immagine al box */
   background-position: center;  /* Centra l'immagine */
   background-repeat: no-repeat; /* Evita ripetizioni */
-  background-color:#ffd03493;
+  background-color:#ffd36e;
 }
 
 .servizi-box .card:hover{
@@ -95,7 +95,7 @@ li.dropdown {
   position: relative;
   display: block;
   width: 100%;            
-  background-color: #ff910093; 
+  background-color: rgb(255, 135, 44); 
   text-align:center; 
   color: black;
   font-size: 20px;
@@ -139,7 +139,7 @@ li.dropdown {
   position: relative;
   display: block;
   width: 100%;            
-  background-color: #ffcf32a9; 
+  background-color: #ffd36e; 
   text-align:center; 
   color: black;
   font-weight: bold;         
@@ -186,11 +186,11 @@ li.dropdown {
   }
 
   .generale th{
-    background-color: #fdc200;
+    background-color:#ffc43c;
   }
 
   .generale td{
-    background-color: #ffd034;
+    background-color: #ffcb51;
   }
 
 /*Media query: sotto i 600px → 1 per riga */
@@ -230,7 +230,7 @@ p{
   margin:auto;
   padding: 25px;
   border-radius: 8px; 
-  background: rgba(255, 208, 1, 0.26); 
+  background: #ffd36ebd; 
   box-shadow: 0 1px 6px rgba(0,0,0,0.04); 
 }
 .schedule {
