@@ -101,21 +101,20 @@ li.dropdown {
     height: auto;
     margin: auto;
     padding: 20px;
-    box-shadow: 5px 10px rgb(255, 158, 74)
-    
+    box-shadow: 5px 10px rgba(255, 158, 74, 0.563);
+    background-image: linear-gradient(to bottom right,rgb(255, 158, 74), #ffd36e);
 }
 
 .distanze{
-    border-color: rgba(211, 118, 63, 0.737);
+    border-color: rgb(255, 158, 74);
     border-style: solid;
-
     background-color: rgb(255, 205, 106);
-    box-shadow: 5px 10px rgba(211, 118, 63, 0.737);
+    box-shadow: 5px 10px rgba(255, 158, 74, 0.59);
 }
 
 
 tr, th, td {
-    border-color: rgba(211, 118, 63, 0.737);
+    border-color: rgb(255, 158, 74);
     border-style: solid;
 
 }
@@ -128,7 +127,7 @@ tr, th, td {
     width:30%;
     border-radius: 20px;
     padding: 5px;
-    box-shadow: 5px 10px rgba(211, 118, 63, 0.737);
+    box-shadow: 2px 8px rgba(255, 158, 74, 0.566);
 }
 .slogan{
     font-size:xx-large;
@@ -138,6 +137,7 @@ tr, th, td {
     border-radius: 10px;
     font-family: 'Bungee Spice', cursive;
     width: 60%;
+    background-image: linear-gradient(to bottom, rgb(253, 141, 43), rgb(255, 205, 106));
 }
 
 .mappa{
@@ -183,10 +183,11 @@ hr{
     align-self: center;
     text-align: center;
     width: 60%;
-    background-color:#a6de81c5 ;
-    box-shadow: 5px 10px #659346c5;
+    background-color:#a6de815e ;
+    box-shadow: 5px 8px #4a663789;
     padding: 10px;
     border-radius: 20px;
+    border: 3px solid #73a55190;
 }
 
 .curiosita{
@@ -197,7 +198,7 @@ hr{
     width: 80%;
 }
 .vampiro{
-    background-color: #ffd36e;
+    background-color: #ffd36ea1;
     width: 80%;
     display: flex; 
     align-items: right;
@@ -208,7 +209,7 @@ hr{
     margin: auto;
 }
 .finazzi{
-    background-color: #ffd36e;
+    background-color: #ffd36ea1;
     width: 80%;
     display: flex; 
     align-items: right;
@@ -219,7 +220,7 @@ hr{
     margin: auto;
 
 }.colleoni{
-    background-color: #ffd36e;
+    background-color: #ffd36ea1;
     width: 80%;
     height: auto;
     display: flex; 
