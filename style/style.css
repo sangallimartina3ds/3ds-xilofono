@@ -57,6 +57,7 @@ body{
 
 .barra ul li {
     margin: 0;
+    background-color: rgb(255, 158, 74);
 }
 
 .barra ul li a {
@@ -65,6 +66,7 @@ body{
     color: white;
     text-decoration: none;
     text-align: center;
+    background-color: rgb(255, 158, 74);
 }
 
 .barra ul li a:hover {
