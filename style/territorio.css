@@ -2,17 +2,12 @@
     font:black
 }
 li a, .dropbtn {
-  display: inline-block;
   color: rgb(255, 158, 74);
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
   
-li.dropdown {
-  display: inline-block;
-  border-radius: 8px;
-}
+
 
 .dropdown-content {
   display: none;
