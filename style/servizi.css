@@ -326,47 +326,18 @@ p{
 
 /* stile footer */
 .footer{
-    background-color:  #FFD449;
-    font-size: large;
+    background-color: rgb(255, 158, 74);
+    font-size: xx-large;
     width: 100%;
     height: 30%;
     align-items: center;
     margin: auto;
-    padding: 10px;
-    border: 5px solid rgb(255, 136, 0);
-    border-radius: 8px;
-}
-
-.mail{
-    margin: 0 auto;
     text-align: center;
-    padding: 10px;
-    font-size: large;
-    font-weight: bold;
-    align-self: center;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
-.mail a:hover{
-    color: darkblue;
-    text-decoration: underline;
+.footer table{
+  text-align: center;
+  margin: auto;
 }
-
-.mail tr{
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    font-size: large;
-    font-weight: bold;
-    align-self: center;
-    width: 80%;
-}
-
-.mail td{
-    padding: 10px;
-    width: 50%;
-    height: auto; 
-}
-
 
 /* fine stile footer */
