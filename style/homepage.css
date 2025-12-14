@@ -10,29 +10,13 @@
 }
 
 
-p {
-    font-family: "Knewave", cursive;
-}
 
-
-h1 {
-    font-family: "Abril Fatface", serif;
-}
 .logo{ 
     width: 90px; 
     height: auto; 
     background-color: rgba(246, 241, 236, 0); } 
     
-.barra{
-    display: flex;
-  justify-content: center;
-  margin: auto;
-  width:auto;
-  align-self: center;
-  position: sticky;
-  top:1px;
-  border-radius: 8px;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -300,3 +284,18 @@ hr{
 .desc{
     font-family: 'Times New Roman', Times, serif;
 }
+/* freccia torna su */
+.freccia{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.freccia:hover {
+  transform: scale(1.2);
+}
+/* fine freccia torna su */

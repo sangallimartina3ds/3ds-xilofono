@@ -95,3 +95,18 @@ li.dropdown {
     margin: auto;
     border: 2;
 }
+/* freccia torna su */
+.freccia{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.freccia:hover {
+  transform: scale(1.2);
+}
+/* fine freccia torna su */
