@@ -39,7 +39,9 @@ li.dropdown {
   margin-bottom: 20px;
 }
 /* fine titolo servizi */
-
+.login h2{
+  text-align: right;
+}
 /* testo servizi */
 .testo{
   text-align: center;
